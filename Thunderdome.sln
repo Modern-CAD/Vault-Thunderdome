@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31205.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deploy", "Deploy\Deploy.csproj", "{924FA763-D25D-447C-A34D-BDE5D496068A}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_README_etc.", "_README_etc
 	ProjectSection(SolutionItems) = preProject
 		readme.txt = readme.txt
 	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ThunderdomeInstaller", "ThunderdomeInstaller\ThunderdomeInstaller.vdproj", "{BBD30694-5744-477B-AEBE-0AC36D45A5CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,8 @@ Global
 		{BFFBB5E5-B60A-4334-B17C-B4677249B978}.Debug|x64.Build.0 = Debug
 		{BFFBB5E5-B60A-4334-B17C-B4677249B978}.Release|x64.ActiveCfg = Release
 		{BFFBB5E5-B60A-4334-B17C-B4677249B978}.Release|x64.Build.0 = Release
+		{BBD30694-5744-477B-AEBE-0AC36D45A5CE}.Debug|x64.ActiveCfg = Debug
+		{BBD30694-5744-477B-AEBE-0AC36D45A5CE}.Release|x64.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
